@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f7f3;
+}
+#root .header {
+  width: 100%;
+  height: 40px;
+  padding-left: 30px;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  background-color: #1a23fb;
+  color: #f8f7f3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1000;
+}
+#root .card-container {
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 100px;
+}
+#root .card-container .card {
+  width: 278px;
+  padding: 40px;
+  border: 1px solid #1a23fb;
+  position: relative;
+}
+#root .card-container .card .index {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #1a23fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+#root .card-container .card h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #1a23fb;
+}
+#root .card-container .card h3 {
+  font-size: 12px;
+  letter-spacing: 0.2rem;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #1a23fb;
+}
+#root .card-container .card p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Overpass", sans-serif;
+  color: #1a23fb;
+}
+#root .card-container .card button {
+  width: 100%;
+  height: 18px;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f7f3;
+  color: #1a23fb;
+  position: absolute;
+  top: 105%;
+  right: 0;
+  border: none;
+  text-align: left;
+}
+#root .card-container .card button:hover {
+  background-color: #1a23fb;
+  color: #f8f7f3;
+}/*# sourceMappingURL=style.css.map */
